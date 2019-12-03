@@ -1,0 +1,49 @@
+.hot{
+        width: 1500px;
+    // border: 1px solid rgb(250, 55, 55);
+    // border-top: none;
+    border-right: 1px solid #E4E4E4;
+    border-left:1px solid #E4E4E4;
+    margin-top: 0;
+    margin-left: -156px;
+    background: #fff;
+    height: 100px;
+
+    // &-wrapper{
+    //     margin: 0;
+    // border: 1px solid #E4E4E4;
+    // width: 1450px;
+    // margin-left: 25px;
+    // height: 90px;
+    // line-height: 90px;
+    // font-size: 20px;
+    // float: left;
+    // }
+        &-wrapper{
+            border-bottom:1px solid #E4E4E4;
+    width: 1450px;
+    margin-left: 25px;
+    height: 88px;
+    line-height: 88px;
+    font-size: 20px;
+        }
+    dl{
+            margin: 0;
+    margin-top: 6px;
+    display:flex;//这一个就可以让城市名全部水平排列
+   
+        dt{
+                width: 100px;
+    // border: 1px solid;
+    
+        }
+        dd{
+            a{
+                text-decoration: none;
+                color:#666;
+                font-size: 16px;
+            }
+   
+        }
+    }
+}

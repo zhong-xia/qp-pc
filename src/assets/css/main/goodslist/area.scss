@@ -1,0 +1,135 @@
+.area {
+  width: 1150px;
+  margin-left: -156px;
+  border: 1px solid #E4E4E4;
+
+  &-category {
+    margin-left: 24px;
+    margin-top: 20px;
+    width: 1100px;
+    height: 65px;
+
+    &-item {
+      margin: 0;
+      word-break: normal;
+
+      &-title1 {
+        display: inline-block;
+        width: 55px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+      }
+
+      &-title2 {
+        display: inline-block;
+        background: #FFD000;
+        width: 55px;
+        margin-left: 40px;
+        height: 30px;
+        border-radius: 10px;
+        line-height: 30px;
+        text-align: center;
+
+        &:hover{
+            cursor:pointer;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      &-right {
+        width: 900px;
+        height: 229px;
+        margin-left: 200px;
+        margin-top: -30px;
+
+        &-top {
+          width: 900px;
+          height: 30px;
+          font-size: 16px;
+
+          a {
+            display: inline-block;
+            margin-top: 5px;
+            font-size: 16px;
+            margin-right: 50px;
+          }
+        }
+
+        &-bottom {
+          display: flex;
+
+          &-table {
+            text-align: center;
+            height: 30px;
+          }
+        }
+
+      }
+    }
+  }
+
+  &-address {
+    margin-left: 24px;
+    margin-top: 20px;
+    width: 1100px;
+    height: 60px;
+
+    &-list {
+      margin: 0;
+      word-break: normal;
+
+      &-title1 {
+        display: inline-block;
+        width: 55px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+      }
+
+      &-title2 {
+        display: inline-block;
+        background: #FFD000;
+        width: 55px;
+        margin-left: 40px;
+        height: 30px;
+        border-radius: 10px;
+        line-height: 30px;
+        text-align: center;
+
+        &:hover{
+            cursor: pointer;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      &-right {
+        width: 900px;
+        height: 229px;
+        margin-left: 200px;
+        margin-top: -30px;
+
+
+
+
+        &-bottom {
+          display: flex;
+
+          &-table {
+            text-align: center;
+            height: 30px;
+          }
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+.footer {
+  height: 350px;
+  width: 1500px;
+  margin-left: -156px;
+  &-head {
+    height: 50px;
+    background-color: #1E90FF;
+
+    &-container {
+      width: 1000px;
+      height: 50px;
+      margin: 0 auto;
+
+      div {
+        float: left;
+        margin: 5px 5px;
+
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 50px;
+        text-align: center;
+        font-family: iconfont;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      i {
+        padding-left: 4px;
+        color: #fff;
+      }
+    }
+  }
+
+  &-main {
+    height: 250px;
+    &-container {
+      width: 1000px;
+      height: 250px;
+      margin: 0 auto;
+      position:relative;
+
+      &-left {
+        width: 800px;
+        height: 250px;
+        position: absolute;
+        &-item {
+          float: left;
+          margin: 0 35px;
+        }
+
+        dt {
+          font-size: 20px;
+          line-height: 20px;
+          margin-bottom: 10px;
+          text-align: left;
+        }
+
+        dd {
+          margin: 5px 0;
+          color: rgb(138, 139, 138);
+          text-align: left;
+          img{
+              width: 14px;
+              height: 14px;
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: rgb(138, 139, 138);
+        }
+      }
+      &-right{
+          position:absolute;
+          margin-left: 800px;
+          width: 200px;
+          height: 250px;
+         img{
+            margin-top: 50px;
+             width: 110px;
+             height:110px;
+         }
+      }
+
+    }
+  }
+
+  &-foot{
+      height: 50px;
+      &-container{
+          width:1000px;
+          height: 50px;
+          margin: 0 auto;
+          &-content{
+              line-height: 50px;
+            a{
+                font-size: 14px;
+                text-decoration: none;
+                color: rgb(138, 139, 138);
+            }
+            label{
+                 color: rgb(138, 139, 138);
+            }
+          }
+      }
+  }
+}

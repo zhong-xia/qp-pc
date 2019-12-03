@@ -1,0 +1,123 @@
+.mark {
+//   border: 1px solid;
+  width: 1500px;
+  margin-left: -155px;
+  height: 325px;
+   
+  &-container {
+    // border: 1px solid red;
+    width: 1500px;
+    height: 300px;
+    margin-top: 25px;
+
+
+    &-title {
+      border: 1px solid #ddd;
+      width: 250px;
+      height: 300px;
+      margin: 0;
+      float: left;
+      cursor: pointer;
+
+      dt {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 30px;
+      }
+
+      ul {
+        display: none;
+      }
+
+      .carPic {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background: #eee;
+        margin-top: 45px;
+        margin-left: 17px;
+      }
+
+      .special {
+        display: none;
+      }
+    }
+
+    &-title.active {
+      float: left;
+    //   border: 1px solid yellow;
+      width: 488px;
+      height: 300px;
+      margin: 0;
+      background: #F5F5F5;
+
+      dt {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 20px;
+      }
+
+      ul {
+        display: inline-block;
+        width: 270px;
+        position: absolute;
+        padding: 0;
+        margin-bottom: 0;
+        margin-left: -22px;
+        // border: 1px solid pink;
+
+        li {
+          list-style: none;
+        //   border: 1px solid green;
+          width: 130px;
+          height: 40px;
+          line-height: 40px;
+          float: left;
+          flex-wrap: wrap;
+
+          a {
+            text-decoration: none;
+            color: #666;
+            font-size: 14px;
+
+            &:hover{
+                color:#F60;
+            }
+          }
+        }
+      }
+
+      .carPic {
+        float: left;
+        position: absolute;
+        margin-left: 280px;
+        background: #F5F5F5;
+        width: 150px;
+        height: 150px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .special {
+        display: inline-block;
+        border: 1px solid #666;
+        width: 135px;
+        height: 30px;
+        border-radius: 5px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 206px;
+
+        &:hover {
+          color: #F60;
+          border: 1px solid #F60;
+        }
+      }
+    }
+    }
+}

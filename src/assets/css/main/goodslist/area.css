@@ -1,0 +1,130 @@
+.area {
+  width: 1150px;
+  margin-left: -156px;
+  border: 1px solid #E4E4E4;
+}
+
+.area-category {
+  margin-left: 24px;
+  margin-top: 20px;
+  width: 1100px;
+  height: 65px;
+}
+
+.area-category-item {
+  margin: 0;
+  word-break: normal;
+}
+
+.area-category-item-title1 {
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.area-category-item-title2 {
+  display: inline-block;
+  background: #FFD000;
+  width: 55px;
+  margin-left: 40px;
+  height: 30px;
+  border-radius: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.area-category-item-title2:hover {
+  cursor: pointer;
+}
+
+.area-category-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.area-category-item-right {
+  width: 900px;
+  height: 229px;
+  margin-left: 200px;
+  margin-top: -30px;
+}
+
+.area-category-item-right-top {
+  width: 900px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.area-category-item-right-top a {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+.area-category-item-right-bottom {
+  display: flex;
+}
+
+.area-category-item-right-bottom-table {
+  text-align: center;
+  height: 30px;
+}
+
+.area-address {
+  margin-left: 24px;
+  margin-top: 20px;
+  width: 1100px;
+  height: 60px;
+}
+
+.area-address-list {
+  margin: 0;
+  word-break: normal;
+}
+
+.area-address-list-title1 {
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.area-address-list-title2 {
+  display: inline-block;
+  background: #FFD000;
+  width: 55px;
+  margin-left: 40px;
+  height: 30px;
+  border-radius: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.area-address-list-title2:hover {
+  cursor: pointer;
+}
+
+.area-address-list a {
+  text-decoration: none;
+  color: #000;
+}
+
+.area-address-list-right {
+  width: 900px;
+  height: 229px;
+  margin-left: 200px;
+  margin-top: -30px;
+}
+
+.area-address-list-right-bottom {
+  display: flex;
+}
+
+.area-address-list-right-bottom-table {
+  text-align: center;
+  height: 30px;
+}

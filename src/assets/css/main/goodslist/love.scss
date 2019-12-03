@@ -1,0 +1,47 @@
+.love {
+  border: 1px solid #E4E4E4;
+  width: 320px;
+  margin-left: 20px;
+
+  &-contain {
+    width: 300px;
+    display: inline-block;
+    margin-left: 10px;
+
+    img {
+      width: 290px;
+      height: 180px;
+    }
+
+    &-title {
+      margin-top: 10px;
+      color: #000;
+      display: inline-block;
+      width: 300px;
+    }
+
+    &-address {
+      width: 300px;
+      display: inline-block
+    }
+
+    &-price {
+      font-size: 30px;
+      color: #F40;
+    }
+
+    }
+
+  .el-rate {
+    display: inline-block;
+
+    .el-rate__icon {
+      font-size: 12px;
+    }
+  }
+  
+  .s-item-comment-total {
+    color: #666;
+  }
+
+}

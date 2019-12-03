@@ -1,0 +1,56 @@
+.nav {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  float: right;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+}
+
+.nav ul li label {
+  padding: 0 8px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav ul li a:hover {
+  color: #F40;
+}
+
+.nav ul .shopping:hover {
+  border: 1px solid #E5E5E5;
+  border-top: none;
+}
+
+.nav ul .shopping:hover > div {
+  display: block;
+  margin-left: -16px;
+}
+
+.nav ul div {
+  background: #fff;
+  display: none;
+  z-index: 999;
+  border: 1px solid;
+  margin-left: -10px;
+  width: 103px;
+}
+
+.nav ul div a {
+  line-height: 35px;
+  width: 103px;
+  margin: 5px 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+.nav ul div a:hover {
+  color: #31BBAC;
+}

@@ -1,0 +1,39 @@
+ // geo
+    .geo {
+      margin-left: 30px;
+      line-height: 40px;
+      font-size: 14px;
+      color: #000;
+
+      i {
+        background-size: 16px;
+      }
+
+      &-change {
+          margin: 0 3px;
+        border: 1px solid #E5E5E5;
+        background-color: #F4F4F4;
+        line-height:14px;
+        color: #000;
+        text-decoration: none;
+        border-radius:5px;
+        padding: 2px;
+        &:hover{
+            color:#f40;
+        }
+      }
+      &-login{
+          text-decoration: none;
+          color:#f40;
+          margin-left:  20px;
+      }
+      &-register{
+          text-decoration: none;
+          font-size: 14px;
+           margin-left: 10px;
+           &:hover{
+               color:#f40;
+            }
+      }
+
+    }

@@ -1,0 +1,173 @@
+.search {
+  width: 1500px;
+  height: 160px;
+  margin: 0 auto;
+
+  &-left {
+    display: inline-block;
+    float: left;
+    width: 350px;
+    height: 160px;
+
+    &-img1 {
+      width: 180px;
+      height: 70px;
+      margin: 50px auto;
+    }
+
+    &-img3 {
+      width: 2px;
+      height: 50px;
+      margin: auto 8px;
+    }
+
+    &-img2 {
+      width: 80px;
+      height: 50px;
+      margin-bottom: 50px;
+    }
+  }
+
+  &-main {
+    display: inline-block;
+    width: 900px;
+    height: 160px;
+   
+
+    &-container {
+      width: 800px;
+      height: 100px;
+      margin: 30px auto;
+
+      &-tab {
+        width: 800px;
+        height: 40px;
+        margin-left: 5px;
+        &-product{
+          color:#F60;
+        }
+        &-answer{
+          color:#000;
+          &:hover{
+            color: #F60;
+          }
+        }
+        a {
+          line-height: 40px;
+          font-size: 16px;
+          text-decoration: none;
+        }
+        
+      }
+
+      &-select {
+        width: 799px;
+        height: 40px;
+        border: 1px solid #727972;
+        // border-top-right-radius: 5px;
+        // border-bottom-right-radius: 5px;
+        border-radius: 5px;
+
+        &-hotPlace {
+          margin: 0;
+          border: 1px solid #E4E4E4;
+          width: 700px;
+          box-sizing: border-box;
+          box-shadow: 3px 3px 4px #E4E4E4;
+          z-index: 999;
+          background: #fff;
+          position: absolute;
+          border-bottom-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+
+          dt {
+            padding: 10px;
+            font-weight: 800;
+          }
+
+          dd {
+            margin: 0;
+            padding-left: 10px;
+            float: left;
+            color:  #434643;
+            padding-bottom: 10px;
+           a {
+              text-decoration: none;
+              color: #434643;
+              &:hover {
+                color: #F60;
+              }
+            }
+          }
+        }
+
+        &-searchList{
+           margin: 0;
+          border: 1px solid #E4E4E4;
+          width: 700px;
+          box-sizing: border-box;
+          box-shadow: 3px 3px 4px #E4E4E4;
+          z-index: 999;
+          background: #fff;
+          position: absolute;
+          border-bottom-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+
+          dd {
+            margin: 0;
+            // padding: 10px;
+            padding: 0 0 10px 10px;
+            color: rgb(100, 98, 98);
+
+            a {
+              text-decoration: none;
+              color: #434643;
+              &:hover {
+                color: #F60;
+              }
+            }
+          }
+          }
+      }
+
+      // 这里标签el-input  和 el-button要加.
+      .el-input {
+        outline: none;
+        font-size: 16px;
+        width: 700px;
+        position: absolute;
+        margin-left: 1px;
+      
+     }
+     input{
+       border-radius: 0;
+     }
+      .el-button {
+        width: 100px;
+        height: 40px;
+        margin-left: 699px;
+      }
+
+      
+
+    }
+  }
+
+  &-right{
+      
+      width: 240px;
+      height: 160px;
+      float: right;
+      p{
+         text-align: center;
+          font-size: 16px;
+        
+      }
+      img{
+          width: 100px;
+          height: 100px;
+          margin-top:-10px;
+          margin-left: 70px;
+      }
+  }
+}

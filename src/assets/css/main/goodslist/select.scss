@@ -1,0 +1,114 @@
+// .area-select {
+//   &-tab {
+//     margin: 0;
+
+//     &-dt {
+//       height: 30px;
+//       line-height: 30px;
+// text-align: left;
+//       a{
+//           text-decoration: none;
+//           color:#000;
+//       }
+//     }
+
+//         dd{
+//         border: 1px solid green;
+//     width: 100px;
+//     margin-top: 10px;
+//     height: 60px;
+
+//     span{
+//         text-align: left;
+//     color: #999;
+//     font-size: 22px;
+//     }
+//         }
+//   }
+
+// }
+
+
+ .m-product-select {
+      padding-bottom: 5px;
+      min-width: 120px;
+
+      .tab {
+        position: relative;
+
+        dt {
+          font-size: 14px;
+          line-height: 24px;
+          margin-top: -10px;
+    text-align: left;
+    font-size: 16px;
+          &.select-title {
+            color: #ccc;
+            font-size: 20px;
+          }
+        }
+
+        dd {
+          &:before {
+            content: ' ';
+            position: absolute;
+            display: block;
+            width: 0;
+            height: 0;
+            border-color: transparent transparent #E5E5E5;
+            border-style: solid;
+            border-width: 5px;
+            top: -11px;
+          }
+
+          &:after {
+            content: ' ';
+            position: absolute;
+            top: -8px;
+            left: 16px;
+            display: block;
+            width: 0;
+            height: 0;
+            border-color: transparent transparent #fff;
+            border-style: solid;
+            border-width: 4px;
+          }
+
+          display: none;
+          top: 24px;
+          width: 510px;
+          background: #fff;
+          position: absolute;
+          cursor: auto;
+          user-select: text;
+          white-space: normal;
+          font-size: 12px;
+          text-align: left;
+          background: #FFF;
+          border: 1px solid #E5E5E5;
+          border-radius: 4px;
+          padding: 19px 15px 9px;
+
+          span {
+            display: inline-block;
+            min-width: 120px;
+            line-height: 1.5;
+            font-weight: 500;
+            margin-top:10px;
+          }
+
+          h3 {
+            color: #ccc;
+            font-size: 16px;
+            margin-bottom: 11px;
+          }
+        }
+
+        &:hover {
+          dd {
+            display: block;
+            z-index: 999;
+          }
+        }
+      }
+    }

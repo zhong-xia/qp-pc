@@ -1,0 +1,165 @@
+.good {
+  width: 1500px;
+  height: 700px;
+  margin-left: -156px;
+}
+
+.good-shopping {
+  width: 1500px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  font-size: 32px;
+}
+
+.good-wrapper {
+  width: 1500px;
+  height: 610px;
+  border-bottom: 1px solid #E4E4E4;
+  border-right: 1px solid #E4E4E4;
+  border-left: 1px solid #E4E4E4;
+  border-top: 2px solid #F40;
+}
+
+.good-wrapper-left {
+  width: 850px;
+  height: 610px;
+}
+
+.good-wrapper-left-top {
+  width: 850px;
+  height: 400px;
+}
+
+.good-wrapper-left-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.good-wrapper-left-bottom {
+  width: 850px;
+  height: 204px;
+  position: relative;
+}
+
+.good-wrapper-left-bottom-slider {
+  width: 285px;
+  height: 204px;
+  margin-left: 0;
+}
+
+.good-wrapper-left-bottom-slider img {
+  width: 100%;
+  height: 100%;
+}
+
+.good-wrapper-left-bottom-main {
+  width: 285px;
+  height: 204px;
+  margin-left: 286px;
+  margin-top: -206px;
+  float: left;
+  border: 1px solid #E4E4E4;
+  position: absolute;
+}
+
+.good-wrapper-left-bottom-main img {
+  width: 100%;
+  height: 100%;
+}
+
+.good-wrapper-left-bottom-fu {
+  width: 280px;
+  height: 204px;
+  float: left;
+  border: 1px solid #E4E4E4;
+  position: absolute;
+  margin-left: 570px;
+  margin-top: -206px;
+}
+
+.good-wrapper-left-bottom-fu img {
+  width: 100%;
+  height: 100%;
+}
+
+.good-wrapper-main {
+  margin-left: 855px;
+  margin-top: -609px;
+  border: 1px solid #E4E4E4;
+  width: 315px;
+  height: 608px;
+}
+
+.good-wrapper-main a {
+  width: 316px;
+  height: 200px;
+  border: 1px solid #E4E4E4;
+  display: block;
+  margin-left: -4px;
+}
+
+.good-wrapper-main a img {
+  width: 100%;
+  height: 100%;
+}
+
+.good-wrapper-right {
+  width: 328px;
+  height: 605px;
+  margin-top: -610px;
+  margin-left: 1170px;
+}
+
+.good-wrapper-right-new {
+  text-align: center;
+  color: #F40;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.good-wrapper-right dl {
+  border-top: 1px solid #E4E4E4;
+  width: 328px;
+  height: 100px;
+  margin: 0;
+}
+
+.good-wrapper-right dl p {
+  margin-bottom: 0;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  padding: 0px 0 2px 0px;
+  text-align: center;
+  background: #F60;
+}
+
+.good-wrapper-right dl a {
+  float: left;
+  margin-left: 40px;
+  margin-top: -20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.good-wrapper-right dl dd {
+  margin-top: 6px;
+  color: #999;
+}
+
+.good-wrapper-right-more {
+  width: 328px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.good-wrapper-right-more a {
+  text-decoration: none;
+  color: #F60;
+}

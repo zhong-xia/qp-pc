@@ -1,0 +1,57 @@
+.nav{
+    margin:0;
+    padding: 0;
+    height: 40px;
+     float:right;
+
+     ul{
+       
+       li{
+         list-style: none;
+         display: inline-block;
+         float: left;
+         label{
+           padding:0 8px;
+         }
+         a{
+           text-decoration: none;
+           color:#000;
+           &:hover{
+             color:#F40;
+           }
+         }
+
+       }
+       .shopping:hover{
+           border: 1px solid #E5E5E5;
+            border-top: none;
+            >div{
+              display: block;
+              margin-left: -16px;
+            }
+         }
+          div {
+            background: #fff;
+            display: none;
+            z-index: 999;
+              border: 1px solid;
+    margin-left: -10px;
+    width: 103px;
+            a {
+              line-height: 35px;
+              width: 103px;
+    margin: 5px 0;
+    font-size: 12px;
+    text-align: center;
+              &:hover {
+                color: #31BBAC;
+              }
+            }
+          }
+       
+     }
+
+     
+}
+
+

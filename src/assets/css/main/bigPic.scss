@@ -1,0 +1,228 @@
+.bigPic-wrapper {
+  margin-top:20px;
+  &-container {
+    width: 126%;
+    // border: 1px solid red;
+    margin-left: -155px;
+    height: 400px;
+     position: relative;
+
+    &-one {
+      background: blue;
+      width: 450px;
+      height: 400px;
+     
+
+      img {
+        width: 450px;
+        height: 350px;
+      }
+
+      span {
+        position: absolute;
+        left: 180px;
+        top: 360px;
+        font-size: 22px;
+        font-weight: 600;
+      }
+    }
+
+    &-two {
+      margin-top: -400px;
+      background: blue;
+      width: 450px;
+      height: 400px;
+      margin-left: 500px;
+
+
+      img {
+        width: 450px;
+        height: 350px;
+      }
+
+      span {
+        position: absolute;
+        left: 180px;
+        top: 360px;
+        font-size: 22px;
+        font-weight: 600;
+        margin-left: 500px;
+      }
+
+      //  img {
+      //     width: 450px;
+      //     height: 350px;
+      //   }
+    }
+
+    &-three {
+        // border: 1px solid;
+        margin-left: 1000px;
+        margin-top: -400px;
+        height: 400px;
+
+    // li {
+    //   list-style: none;
+    //   border: 1px solid;
+    //   margin-top: -13px;
+    //   // margin-left: -40px;
+    //   margin-right: 10px;
+    //   width: 200px;
+    //   height: 200px;
+    //   float: left;
+    //   text-align: center;
+    //   line-height: 200px;
+    //   font-size: 22px;
+
+
+    //   a {
+    //     text-decoration: none;
+
+    //     span {
+    //       color: green;
+    //       font-weight: 500;
+    //     }
+    //   }
+    // }
+
+        &-first {
+          list-style: none;
+        //   border: 1px solid;
+          width: 220px;
+          height: 200px;
+          margin-left: -40px;
+          margin-top: -16px;
+          text-align: center;
+          background:url('http://img.qipeiren.com/qipeiren/images/map_new_panel_1_hn.png') no-repeat center center;
+
+          &:hover{
+              background-color: rgb(46, 214, 88);
+              cursor: pointer;
+              label{
+                  color:rgb(46, 214, 88);
+              }
+          }
+
+          a{
+              text-decoration: none;
+              font-size: 22px;
+              line-height: 200px;
+
+              span{
+                  font-weight: 600px;
+                  color: rgb(46, 214, 88);
+              }
+              label{
+                  color:#000;
+              }
+          }
+        }
+
+        &-second {
+          
+            list-style: none;
+            // border: 1px solid;
+            width: 220px;
+            height: 200px;
+              margin-left: 220px;
+    margin-top: -202px;
+            text-align: center;
+            background: url('http://img.qipeiren.com/qipeiren/images/map_new_panel_1_gd.png') no-repeat center center;
+
+            &:hover{
+              background-color: rgb(203, 128, 226);
+              cursor: pointer;
+              label{
+                  color:rgb(203, 128, 226);
+              }
+          }
+
+            a {
+              text-decoration: none;
+              font-size: 22px;
+              line-height: 200px;
+
+              span {
+                font-weight: 600px;
+                color: rgb(203, 128, 226);
+              }
+
+              label {
+                color: #000;
+              }
+            }
+          
+        }
+
+        &-third {
+
+          list-style: none;
+        //   border: 1px solid;
+          width: 220px;
+          height: 200px;
+          margin-left: -40px;
+          margin-top: -10px;
+          text-align: center;
+          background: url('http://img.qipeiren.com/qipeiren/images/map_new_panel_1_sd.png') no-repeat center center;
+
+            &:hover{
+              background-color: rgb(111, 186, 236);
+              cursor: pointer;
+              label{
+                  color:rgb(111, 186, 236);
+              }
+          }
+
+          a {
+            text-decoration: none;
+            font-size: 22px;
+            line-height: 200px;
+
+            span {
+              font-weight: 600px;
+              color: rgb(111, 186, 236);
+            }
+
+            label {
+              color: #000;
+            }
+          }
+
+        }
+
+        &-forth {
+          list-style: none;
+        //   border: 1px solid;
+          width: 220px;
+          height: 200px;
+             margin-left: 220px;
+    margin-top: -202px;
+          text-align: center;
+          background: url('http://img.qipeiren.com/qipeiren/images/map_new_panel_1_js.png') no-repeat center center;
+
+             &:hover{
+              background-color: rgb(236, 111, 180);
+              cursor: pointer;
+              label{
+                  color:rgb(236, 111, 180);
+              }
+          }
+
+          a {
+            text-decoration: none;
+            font-size: 22px;
+            line-height: 200px;
+
+            span {
+              font-weight: 600px;
+              color: rgb(236, 111, 180);
+            }
+
+            label {
+              color: #000;
+            }
+          }
+        }
+    }
+  }
+}
